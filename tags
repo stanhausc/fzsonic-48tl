@@ -1,0 +1,125 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3fdf28bc/
+BASE_ADDRESS	config.py	/^BASE_ADDRESS = 999$/;"	v
+BAUD_RATE	config.py	/^BAUD_RATE = 115200$/;"	v
+BYTE_SIZE	config.py	/^BYTE_SIZE = 8$/;"	v
+Battery	data.py	/^class Battery(object):$/;"	c
+BatteryStatus	data.py	/^class BatteryStatus(object):$/;"	c
+CONNECTION	config.py	/^CONNECTION = 'Modbus RTU'$/;"	v
+DEVICE_INSTANCE	config.py	/^DEVICE_INSTANCE = 1$/;"	v
+FIRMWARE_VERSION	config.py	/^FIRMWARE_VERSION = 1  # value returned by getValue (getText returns string value reported by bat/;"	v
+GetDescription	ext/velib_python/vedbus.py	/^	def GetDescription(self, language, length):$/;"	m	class:VeDbusItemExport
+GetText	ext/velib_python/vedbus.py	/^	def GetText(self):$/;"	m	class:VeDbusItemExport
+GetText	ext/velib_python/vedbus.py	/^	def GetText(self):$/;"	m	class:VeDbusTreeExport
+GetValue	ext/velib_python/vedbus.py	/^	def GetValue(self):$/;"	m	class:VeDbusItemExport
+GetValue	ext/velib_python/vedbus.py	/^	def GetValue(self):$/;"	m	class:VeDbusTreeExport
+HARDWARE_VERSION	config.py	/^HARDWARE_VERSION = 1  # value returned by getValue (getText returns string value reported by bat/;"	v
+LOG_LEVEL	config.py	/^LOG_LEVEL = logging.DEBUG$/;"	v
+LedColor	data.py	/^class LedColor(object):$/;"	c
+LedState	data.py	/^class LedState(object):$/;"	c
+MAX_CHARGE_VOLTAGE	config.py	/^MAX_CHARGE_VOLTAGE = 55$/;"	v
+MAX_SLAVE_ADDRESS	config.py	/^MAX_SLAVE_ADDRESS = 10$/;"	v
+MIN_BATTERY_VOLTAGE	config.py	/^MIN_BATTERY_VOLTAGE = 42$/;"	v
+MODE	config.py	/^MODE = 'rtu'$/;"	v
+NO_OF_REGISTERS	config.py	/^NO_OF_REGISTERS = 56$/;"	v
+PARITY	config.py	/^PARITY = serial.PARITY_NONE$/;"	v
+PRODUCT_ID	config.py	/^PRODUCT_ID = 0xB012   # assigned by victron$/;"	v
+PRODUCT_NAME	config.py	/^PRODUCT_NAME = 'FIAMM 48TL Series Battery'$/;"	v
+PropertiesChanged	ext/velib_python/vedbus.py	/^	def PropertiesChanged(self, changes):$/;"	m	class:VeDbusItemExport
+SERVICE_NAME_PREFIX	config.py	/^SERVICE_NAME_PREFIX = 'com.victronenergy.battery.'$/;"	v
+SOFTWARE_VERSION	config.py	/^SOFTWARE_VERSION = '2.2.0'$/;"	v
+STOP_BITS	config.py	/^STOP_BITS = 2$/;"	v
+SetValue	ext/velib_python/vedbus.py	/^	def SetValue(self, newvalue):$/;"	m	class:VeDbusItemExport
+Signal	data.py	/^class Signal(object):$/;"	c
+TIMEOUT	config.py	/^TIMEOUT = 0.2  # seconds$/;"	v
+UPDATE_INTERVAL	config.py	/^UPDATE_INTERVAL = 2000   # milliseconds$/;"	v
+VEDBUS_INVALID	ext/velib_python/ve_utils.py	/^VEDBUS_INVALID = dbus.Array([], signature=dbus.Signature('i'), variant_level=1)$/;"	v
+VeDbusItemExport	ext/velib_python/vedbus.py	/^class VeDbusItemExport(dbus.service.Object):$/;"	c
+VeDbusItemImport	ext/velib_python/vedbus.py	/^class VeDbusItemImport(object):$/;"	c
+VeDbusService	ext/velib_python/vedbus.py	/^class VeDbusService(object):$/;"	c
+VeDbusTreeExport	ext/velib_python/vedbus.py	/^class VeDbusTreeExport(dbus.service.Object):$/;"	c
+__call__	ext/velib_python/vedbus.py	/^	def __call__(self, *args, **kargs):$/;"	m	class:weak_functor
+__contains__	ext/velib_python/vedbus.py	/^	def __contains__(self, path):$/;"	m	class:VeDbusService
+__del__	ext/velib_python/vedbus.py	/^	def __del__(self):$/;"	m	class:VeDbusItemExport
+__del__	ext/velib_python/vedbus.py	/^	def __del__(self):$/;"	m	class:VeDbusItemImport
+__del__	ext/velib_python/vedbus.py	/^	def __del__(self):$/;"	m	class:VeDbusService
+__del__	ext/velib_python/vedbus.py	/^	def __del__(self):$/;"	m	class:VeDbusTreeExport
+__delitem__	ext/velib_python/vedbus.py	/^	def __delitem__(self, path):$/;"	m	class:VeDbusService
+__get__	ext/velib_python/ve_utils.py	/^	def __get__(self, inst, objtype=None):$/;"	m	class:reify
+__getitem__	ext/velib_python/vedbus.py	/^	def __getitem__(self, path):$/;"	m	class:VeDbusService
+__init__	data.py	/^	def __init__(self, battery, modbus_data):$/;"	m	class:BatteryStatus
+__init__	data.py	/^	def __init__(self, dbus_path, aggregate, get_value, get_text=None):$/;"	m	class:Signal
+__init__	data.py	/^	def __init__(self, slave_address, hardware_version, firmware_version, bms_version, ampere_hours/;"	m	class:Battery
+__init__	ext/velib_python/ve_utils.py	/^	def __init__(self, wrapped):$/;"	m	class:reify
+__init__	ext/velib_python/vedbus.py	/^	def __init__(self, bus, objectPath, get_value_handler):$/;"	m	class:VeDbusTreeExport
+__init__	ext/velib_python/vedbus.py	/^	def __init__(self, bus, objectPath, value=None, description=None, writeable=False,$/;"	m	class:VeDbusItemExport
+__init__	ext/velib_python/vedbus.py	/^	def __init__(self, bus, serviceName, path, eventCallback=None, createsignal=True):$/;"	m	class:VeDbusItemImport
+__init__	ext/velib_python/vedbus.py	/^	def __init__(self, f):$/;"	m	class:weak_functor
+__init__	ext/velib_python/vedbus.py	/^	def __init__(self, servicename, bus=None):$/;"	m	class:VeDbusService
+__setitem__	ext/velib_python/vedbus.py	/^	def __setitem__(self, path, newvalue):$/;"	m	class:VeDbusService
+__str__	data.py	/^	def __str__(self):$/;"	m	class:Battery
+__vrm_portal_id	ext/velib_python/ve_utils.py	/^__vrm_portal_id = None$/;"	v
+_create_tree_export	ext/velib_python/vedbus.py	/^	def _create_tree_export(self, bus, objectPath, get_value_handler):$/;"	m	class:VeDbusService
+_get_path	ext/velib_python/vedbus.py	/^	def _get_path(self):$/;"	m	class:VeDbusItemExport
+_get_path	ext/velib_python/vedbus.py	/^	def _get_path(self):$/;"	m	class:VeDbusTreeExport
+_get_tree_dict	ext/velib_python/vedbus.py	/^	def _get_tree_dict(self, path, get_text=False):$/;"	m	class:VeDbusService
+_item_deleted	ext/velib_python/vedbus.py	/^	def _item_deleted(self, path):$/;"	m	class:VeDbusService
+_properties_changed_handler	ext/velib_python/vedbus.py	/^	def _properties_changed_handler(self, changes):$/;"	m	class:VeDbusItemImport
+_refreshcachedvalue	ext/velib_python/vedbus.py	/^	def _refreshcachedvalue(self):$/;"	m	class:VeDbusItemImport
+_value_changed	ext/velib_python/vedbus.py	/^	def _value_changed(self, path, newvalue):$/;"	m	class:VeDbusService
+add_mandatory_paths	ext/velib_python/vedbus.py	/^	def add_mandatory_paths(self, processname, processversion, connection,$/;"	m	class:VeDbusService
+add_path	ext/velib_python/vedbus.py	/^	def add_path(self, path, value, description="", writeable=False,$/;"	m	class:VeDbusService
+amber	data.py	/^	amber = 1$/;"	v	class:LedColor
+append_unit	convert.py	/^def append_unit(unit):$/;"	f
+blinking_fast	data.py	/^	blinking_fast = 3$/;"	v	class:LedState
+blinking_slow	data.py	/^	blinking_slow = 2$/;"	v	class:LedState
+blue	data.py	/^	blue = 2$/;"	v	class:LedColor
+cfg	convert.py	/^import config as cfg$/;"	I
+convert_vreg_version_to_readable	ext/velib_python/ve_utils.py	/^def convert_vreg_version_to_readable(version):$/;"	f
+dbus_int_types	ext/velib_python/ve_utils.py	/^dbus_int_types = (dbus.Int32, dbus.UInt32, dbus.Byte, dbus.Int16, dbus.UInt16, dbus.UInt32, dbus/;"	v
+eventCallback	ext/velib_python/vedbus.py	/^	def eventCallback(self):$/;"	m	class:VeDbusItemImport
+eventCallback	ext/velib_python/vedbus.py	/^	def eventCallback(self, eventCallback):$/;"	m	class:VeDbusItemImport
+exists	ext/velib_python/vedbus.py	/^	def exists(self):$/;"	m	class:VeDbusItemImport
+exit_on_error	ext/velib_python/ve_utils.py	/^def exit_on_error(func, *args, **kwargs):$/;"	f
+first	convert.py	/^def first(ts):$/;"	f
+get_free_space	ext/velib_python/ve_utils.py	/^def get_free_space(path):$/;"	f
+get_load_averages	ext/velib_python/ve_utils.py	/^def get_load_averages():$/;"	f
+get_machine_name	ext/velib_python/ve_utils.py	/^def get_machine_name():$/;"	f
+get_text	convert.py	/^	def get_text(v):$/;"	f	function:append_unit	file:
+get_text	ext/velib_python/vedbus.py	/^	def get_text(self):$/;"	m	class:VeDbusItemImport
+get_value	convert.py	/^	def get_value(status):$/;"	f	function:read_alarm	file:
+get_value	convert.py	/^	def get_value(status):$/;"	f	function:read_bool	file:
+get_value	convert.py	/^	def get_value(status):$/;"	f	function:read_float	file:
+get_value	convert.py	/^	def get_value(status):$/;"	f	function:read_hex_string	file:
+get_value	convert.py	/^	def get_value(status):$/;"	f	function:read_led_state	file:
+get_value	ext/velib_python/vedbus.py	/^	def get_value(self):$/;"	m	class:VeDbusItemImport
+get_vrm_portal_id	ext/velib_python/ve_utils.py	/^def get_vrm_portal_id():$/;"	f
+green	data.py	/^	green = 0$/;"	v	class:LedColor
+local_get_value	ext/velib_python/vedbus.py	/^	def local_get_value(self):$/;"	m	class:VeDbusItemExport
+local_get_value	ext/velib_python/vedbus.py	/^	def local_get_value(self):$/;"	m	class:VeDbusTreeExport
+local_set_value	ext/velib_python/vedbus.py	/^	def local_set_value(self, newvalue):$/;"	m	class:VeDbusItemExport
+logger	ext/velib_python/ve_utils.py	/^logger = logging.getLogger(__name__)$/;"	v
+mean	convert.py	/^def mean(numbers):$/;"	f
+off	data.py	/^	off = 0$/;"	v	class:LedState
+on	data.py	/^	on = 1$/;"	v	class:LedState
+os_exit	ext/velib_python/ve_utils.py	/^from os import _exit as os_exit$/;"	x
+path	ext/velib_python/vedbus.py	/^	def path(self):$/;"	m	class:VeDbusItemImport
+read_alarm	convert.py	/^def read_alarm(warn_reg, warn_bit, alarm_reg, alarm_bit):$/;"	f
+read_bool	convert.py	/^def read_bool(register, bit):$/;"	f
+read_file	ext/velib_python/ve_utils.py	/^def read_file(path):$/;"	f
+read_float	convert.py	/^def read_float(register, scale_factor=1.0, offset=0.0):$/;"	f
+read_hex_string	convert.py	/^def read_hex_string(register, count):$/;"	f
+read_led_state	convert.py	/^def read_led_state(register, led):$/;"	f
+red	data.py	/^	red = 3$/;"	v	class:LedColor
+reify	ext/velib_python/ve_utils.py	/^class reify(object):$/;"	c
+serviceName	ext/velib_python/vedbus.py	/^	def serviceName(self):$/;"	m	class:VeDbusItemImport
+set_value	ext/velib_python/vedbus.py	/^	def set_value(self, newvalue):$/;"	m	class:VeDbusItemImport
+str_to_arr	ext/velib_python/ve_utils.py	/^	def str_to_arr(x, length):$/;"	f	function:convert_vreg_version_to_readable	file:
+unwrap_dbus_value	ext/velib_python/ve_utils.py	/^def unwrap_dbus_value(val):$/;"	f
+weak_functor	ext/velib_python/vedbus.py	/^class weak_functor:$/;"	c
+wrap_dbus_value	ext/velib_python/ve_utils.py	/^def wrap_dbus_value(value):$/;"	f
